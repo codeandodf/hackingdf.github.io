@@ -153,11 +153,11 @@ $("#submitemail").click(function(){
 		"email": $("#email").val()
 	});
 	$.ajax({
-		url: "https://slackfordc.herokuapp.com/invite",
+		url: "http://slackingdf.herokuapp.com/",
 		type: "POST",
 		data: payload,
-		contentType: "application/json",
-		success: function();
+		contentType: "application/xml",
+		success: function() {
 			$("#email").val("");
 			$(".alert").removeClass("hidden");
 		}
