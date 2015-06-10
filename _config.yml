@@ -1,11 +1,4 @@
-<<<<<<< HEAD
 name: Codeando DF
-<<<<<<< HEAD
-=======
-name: CodeandoDF
->>>>>>> 5ac8ca0689ed94c54a321e31bc4d01cc9654657e
-=======
->>>>>>> e88a5599a7f7e61becad80218708f4f13786256a
 url: http://codeandodf.org
 markdown: redcarpet
 highlighter: pygments
