@@ -41,7 +41,7 @@ title: Get Involved
 			<div class="col-lg-4">
 				<h1>¡Comparte!</h1>
 				<p><a href="https://www.facebook.com/groups/370710456416676/?fref=ts" target="_blank">Grupo de Facebook &raquo;</a></p>
-				<p><a href="https://codefordc.slack.com">Equipo de Slack</a> | <a href="#" data-toggle="modal" data-target="#slackinvite">Unirse &raquo;</a></p>
+				<p><a href="https://codeandodf.slack.com">Equipo de Slack</a> | <a href="#" data-toggle="modal" data-target="#slackinvite">Unirse &raquo;</a></p>
 			</div>
 			<div class="col-lg-4">
 				<h1>¡Hackea!</h1>
@@ -153,10 +153,10 @@ $("#submitemail").click(function(){
 		"email": $("#email").val()
 	});
 	$.ajax({
-		url: "http://slackingdf.herokuapp.com/",
+		url: "http://slackingdf.herokuapp.com/invite",
 		type: "POST",
 		data: payload,
-		contentType: "application/xml",
+		contentType: "application/JSON",
 		success: function() {
 			$("#email").val("");
 			$(".alert").removeClass("hidden");
