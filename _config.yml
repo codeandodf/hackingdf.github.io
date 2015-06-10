@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 name: Codeando DF
+=======
+name: CodeandoDF
+>>>>>>> 5ac8ca0689ed94c54a321e31bc4d01cc9654657e
 url: http://codeandodf.org
 markdown: redcarpet
 highlighter: pygments
