@@ -1,12 +1,12 @@
 ---
 layout: resource
-title: Code of Conduct
+title: Código de Conducta
 type: document
 deeplink: true
 edit_link: https://editfordc.herokuapp.com/document/e025c67f-cff9-4042-afbf-a161384f36b4
 ---
 
-# Code of Conduct
+# Código de conducta
 
 This code may be summed up simply: Be Kind. However, since this does not always happen, we  have elaborated on this principle below.
 
